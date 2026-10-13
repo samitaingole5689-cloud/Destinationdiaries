@@ -37,6 +37,19 @@
     }
   }
   </script>
+  <script>
+    (function() {
+      try {
+        var s = localStorage.getItem('destination_font_size');
+        if (s) {
+          var n = parseInt(s, 10);
+          if (!isNaN(n) && n >= 12 && n <= 22) {
+            document.documentElement.style.fontSize = n + 'px';
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
   <div id="scroll-progress"></div>
@@ -65,8 +78,8 @@
     <div class="article-nav-container">
       <a href="/" class="back-btn">← Back to All 10 Guides</a>
       <div class="article-tools">
-        <button id="btn-font-normal" class="btn-tool active" title="Standard font size">A</button>
-        <button id="btn-font-large" class="btn-tool" title="Larger font size">A+</button>
+        <button id="btn-font-normal" class="btn-tool" title="Decrease font size across website (A−)" aria-label="Decrease font size">A−</button>
+        <button id="btn-font-large" class="btn-tool" title="Increase font size across website (A+)" aria-label="Increase font size">A+</button>
         <button id="btn-bookmark" class="btn-tool">☆ Save</button>
         <button id="btn-share" class="btn-tool">Share Guide</button>
       </div>

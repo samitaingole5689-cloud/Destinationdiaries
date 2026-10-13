@@ -29,6 +29,9 @@ interface ArticleViewProps {
   onToggleBookmark: (id: string) => void;
   onSelectArticle: (slug: string) => void;
   onShare: (title: string) => void;
+  fontSize: number;
+  onDecreaseFontSize: () => void;
+  onIncreaseFontSize: () => void;
 }
 
 export const ArticleView: React.FC<ArticleViewProps> = ({
@@ -38,10 +41,12 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
   onToggleBookmark,
   onSelectArticle,
   onShare,
+  fontSize,
+  onDecreaseFontSize,
+  onIncreaseFontSize,
 }) => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [activeBudgetTier, setActiveBudgetTier] = useState<'Budget' | 'Mid-Range' | 'Luxury'>('Mid-Range');
-  const [fontSizeLevel, setFontSizeLevel] = useState<'normal' | 'large' | 'xlarge'>('normal');
 
   const { prev, next } = getAdjacentArticles(article.slug);
 
@@ -83,8 +88,6 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
   };
 
   const getProseFontSize = () => {
-    if (fontSizeLevel === 'large') return 'text-lg leading-relaxed';
-    if (fontSizeLevel === 'xlarge') return 'text-xl leading-loose';
     return 'text-base leading-relaxed';
   };
 
@@ -114,18 +117,26 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
           {/* Quick jump menu & reading tools */}
           <div className="flex items-center gap-2 sm:gap-4">
             {/* Font size toggler */}
-            <div className="hidden sm:flex items-center gap-1 bg-stone-100 p-0.5 rounded-lg text-xs font-semibold text-stone-600">
+            <div className="flex items-center gap-1 bg-stone-100 p-0.5 rounded-lg text-xs font-semibold text-stone-600">
               <button
-                onClick={() => setFontSizeLevel('normal')}
-                className={`px-2 py-1 rounded ${fontSizeLevel === 'normal' ? 'bg-white text-stone-900 shadow-2xs' : 'hover:text-stone-900'}`}
-                title="Normal font size"
+                id="btn-font-normal"
+                type="button"
+                onClick={onDecreaseFontSize}
+                disabled={fontSize <= 12}
+                className="px-2 py-1 rounded hover:text-stone-900 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                title="Decrease font size across website (A−)"
+                aria-label="Decrease font size"
               >
-                A
+                A−
               </button>
               <button
-                onClick={() => setFontSizeLevel('large')}
-                className={`px-2 py-1 rounded text-sm ${fontSizeLevel === 'large' ? 'bg-white text-stone-900 shadow-2xs' : 'hover:text-stone-900'}`}
-                title="Large font size"
+                id="btn-font-large"
+                type="button"
+                onClick={onIncreaseFontSize}
+                disabled={fontSize >= 22}
+                className="px-2 py-1 rounded text-sm hover:text-stone-900 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+                title="Increase font size across website (A+)"
+                aria-label="Increase font size"
               >
                 A+
               </button>

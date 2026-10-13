@@ -163,22 +163,70 @@
     });
   });
 
-  // 4. Font Size Adjustment
+  // 4. Global Font Size Adjustment Stepper
+  const MIN_FONT_SIZE = 12;
+  const MAX_FONT_SIZE = 22;
+  const DEFAULT_FONT_SIZE = 16;
+
+  function getStoredFontSize() {
+    try {
+      const saved = localStorage.getItem('destination_font_size');
+      if (saved) {
+        const val = parseInt(saved, 10);
+        if (!isNaN(val) && val >= MIN_FONT_SIZE && val <= MAX_FONT_SIZE) {
+          return val;
+        }
+      }
+    } catch (e) {}
+    return DEFAULT_FONT_SIZE;
+  }
+
+  let currentFontSize = getStoredFontSize();
+
+  function applyGlobalFontSize(size) {
+    currentFontSize = Math.min(MAX_FONT_SIZE, Math.max(MIN_FONT_SIZE, size));
+    document.documentElement.style.fontSize = `${currentFontSize}px`;
+    try {
+      localStorage.setItem('destination_font_size', currentFontSize.toString());
+    } catch (e) {}
+
+    const fontNormalBtn = document.getElementById('btn-font-normal');
+    const fontLargeBtn = document.getElementById('btn-font-large');
+
+    if (fontNormalBtn) {
+      const atMin = currentFontSize <= MIN_FONT_SIZE;
+      fontNormalBtn.disabled = atMin;
+      fontNormalBtn.style.opacity = atMin ? '0.45' : '1';
+      fontNormalBtn.style.cursor = atMin ? 'not-allowed' : 'pointer';
+      fontNormalBtn.setAttribute('aria-disabled', atMin ? 'true' : 'false');
+    }
+
+    if (fontLargeBtn) {
+      const atMax = currentFontSize >= MAX_FONT_SIZE;
+      fontLargeBtn.disabled = atMax;
+      fontLargeBtn.style.opacity = atMax ? '0.45' : '1';
+      fontLargeBtn.style.cursor = atMax ? 'not-allowed' : 'pointer';
+      fontLargeBtn.setAttribute('aria-disabled', atMax ? 'true' : 'false');
+    }
+  }
+
+  // Initial apply
+  applyGlobalFontSize(currentFontSize);
+
   const fontNormalBtn = document.getElementById('btn-font-normal');
   const fontLargeBtn = document.getElementById('btn-font-large');
-  const articleBody = document.querySelector('.article-main-body');
 
-  if (fontNormalBtn && fontLargeBtn && articleBody) {
-    fontNormalBtn.addEventListener('click', () => {
-      articleBody.classList.remove('font-size-large', 'font-size-xlarge');
-      fontNormalBtn.classList.add('active');
-      fontLargeBtn.classList.remove('active');
+  if (fontNormalBtn) {
+    fontNormalBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      applyGlobalFontSize(currentFontSize - 1);
     });
+  }
 
-    fontLargeBtn.addEventListener('click', () => {
-      articleBody.classList.add('font-size-large');
-      fontLargeBtn.classList.add('active');
-      fontNormalBtn.classList.remove('active');
+  if (fontLargeBtn) {
+    fontLargeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      applyGlobalFontSize(currentFontSize + 1);
     });
   }
 

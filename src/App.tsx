@@ -52,6 +52,39 @@ export default function App() {
   const [isDeployModalOpen, setIsDeployModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
+  // Global font size management (12px to 22px, default 16px, 1px step)
+  const MIN_FONT_SIZE = 12;
+  const MAX_FONT_SIZE = 22;
+  const DEFAULT_FONT_SIZE = 16;
+
+  const [fontSize, setFontSize] = useState<number>(() => {
+    try {
+      const stored = localStorage.getItem('destination_font_size');
+      if (stored) {
+        const val = parseInt(stored, 10);
+        if (!isNaN(val) && val >= MIN_FONT_SIZE && val <= MAX_FONT_SIZE) {
+          return val;
+        }
+      }
+    } catch {}
+    return DEFAULT_FONT_SIZE;
+  });
+
+  useEffect(() => {
+    document.documentElement.style.fontSize = `${fontSize}px`;
+    try {
+      localStorage.setItem('destination_font_size', fontSize.toString());
+    } catch {}
+  }, [fontSize]);
+
+  const handleDecreaseFontSize = () => {
+    setFontSize((prev) => Math.max(MIN_FONT_SIZE, prev - 1));
+  };
+
+  const handleIncreaseFontSize = () => {
+    setFontSize((prev) => Math.min(MAX_FONT_SIZE, prev + 1));
+  };
+
   // Bookmarks loaded from localStorage
   const [savedArticleIds, setSavedArticleIds] = useState<string[]>(() => {
     try {
@@ -235,6 +268,9 @@ export default function App() {
         selectedRegion={selectedRegion}
         onSelectRegion={handleSelectRegion}
         isArticleView={Boolean(currentArticle)}
+        fontSize={fontSize}
+        onDecreaseFontSize={handleDecreaseFontSize}
+        onIncreaseFontSize={handleIncreaseFontSize}
       />
 
       {/* Main Content Area */}
@@ -248,6 +284,9 @@ export default function App() {
             onToggleBookmark={() => handleToggleBookmark(currentArticle.id)}
             onSelectArticle={handleSelectArticle}
             onShare={handleShare}
+            fontSize={fontSize}
+            onDecreaseFontSize={handleDecreaseFontSize}
+            onIncreaseFontSize={handleIncreaseFontSize}
           />
         ) : (
           /* Homepage / All 10 Guides Feed */

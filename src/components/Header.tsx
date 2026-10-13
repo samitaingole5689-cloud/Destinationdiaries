@@ -11,6 +11,9 @@ interface HeaderProps {
   selectedRegion: string;
   onSelectRegion: (region: string) => void;
   isArticleView: boolean;
+  fontSize: number;
+  onDecreaseFontSize: () => void;
+  onIncreaseFontSize: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -23,6 +26,9 @@ export const Header: React.FC<HeaderProps> = ({
   selectedRegion,
   onSelectRegion,
   isArticleView,
+  fontSize,
+  onDecreaseFontSize,
+  onIncreaseFontSize,
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isSearchActive, setIsSearchActive] = useState(false);
@@ -128,6 +134,31 @@ export const Header: React.FC<HeaderProps> = ({
             )}
           </button>
 
+          {/* Accessibility Font Size Controls */}
+          <div className="flex items-center gap-0.5 sm:gap-1 bg-stone-100/90 p-0.5 rounded-xl border border-stone-200 text-stone-700 shadow-2xs">
+            <button
+              id={!isArticleView ? 'btn-font-normal' : undefined}
+              type="button"
+              onClick={onDecreaseFontSize}
+              disabled={fontSize <= 12}
+              className="px-2 py-1 text-xs font-semibold rounded-lg hover:bg-white hover:text-stone-900 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+              title="Decrease font size across website (A−)"
+              aria-label="Decrease font size"
+            >
+              A−
+            </button>
+            <button
+              id={!isArticleView ? 'btn-font-large' : undefined}
+              type="button"
+              onClick={onIncreaseFontSize}
+              disabled={fontSize >= 22}
+              className="px-2 py-1 text-xs font-semibold rounded-lg hover:bg-white hover:text-stone-900 transition-colors disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer"
+              title="Increase font size across website (A+)"
+              aria-label="Increase font size"
+            >
+              A+
+            </button>
+          </div>
 
           {/* Mobile Menu Toggle */}
           <button
@@ -170,7 +201,33 @@ export const Header: React.FC<HeaderProps> = ({
             })}
           </div>
 
-          <div className="pt-3 border-t border-stone-100 flex items-center justify-between">
+          <div className="pt-2.5 border-t border-stone-100 flex items-center justify-between">
+            <span className="text-xs font-semibold text-stone-600">Font Size:</span>
+            <div className="flex items-center gap-1 bg-stone-100 p-0.5 rounded-lg border border-stone-200">
+              <button
+                type="button"
+                onClick={onDecreaseFontSize}
+                disabled={fontSize <= 12}
+                className="px-2.5 py-1 text-xs font-semibold rounded hover:bg-white text-stone-700 disabled:opacity-40"
+                title="Decrease font size across website (A−)"
+                aria-label="Decrease font size"
+              >
+                A−
+              </button>
+              <button
+                type="button"
+                onClick={onIncreaseFontSize}
+                disabled={fontSize >= 22}
+                className="px-2.5 py-1 text-xs font-semibold rounded hover:bg-white text-stone-700 disabled:opacity-40"
+                title="Increase font size across website (A+)"
+                aria-label="Increase font size"
+              >
+                A+
+              </button>
+            </div>
+          </div>
+
+          <div className="pt-2 border-t border-stone-100 flex items-center justify-between">
             <button
               onClick={() => {
                 onOpenDeployModal();
