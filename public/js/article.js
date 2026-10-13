@@ -1,5 +1,5 @@
 /**
- * Wanderlust Chronicles — Article Interactive Client Script (Vanilla JS)
+ * Destination Diaries — Article Interactive Client Script (Vanilla JS)
  * Implements: Progress bar, TOC highlight, Budget switcher, Font zoom,
  * Bookmarks persistence (localStorage), Bookmarks drawer, Live Search, Share Toast.
  */
@@ -210,10 +210,11 @@
   }
 
   // 7. LocalStorage Saved Bookmarks Management
-  const STORAGE_KEY = 'wanderlust_saved_guides';
+  const STORAGE_KEY = 'destination_saved_guides';
+  const LEGACY_STORAGE_KEY = 'wanderlust_saved_guides';
   function getSavedIds() {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(STORAGE_KEY) || localStorage.getItem(LEGACY_STORAGE_KEY);
       return raw ? JSON.parse(raw) : ['article-bali', 'article-paris'];
     } catch {
       return ['article-bali'];

@@ -55,7 +55,7 @@ export default function App() {
   // Bookmarks loaded from localStorage
   const [savedArticleIds, setSavedArticleIds] = useState<string[]>(() => {
     try {
-      const stored = localStorage.getItem('wanderlust_saved_guides');
+      const stored = localStorage.getItem('destination_saved_guides') || localStorage.getItem('wanderlust_saved_guides');
       return stored ? JSON.parse(stored) : ['article-bali', 'article-paris'];
     } catch {
       return ['article-bali'];
@@ -65,7 +65,7 @@ export default function App() {
   // Sync saved bookmarks with localStorage
   useEffect(() => {
     try {
-      localStorage.setItem('wanderlust_saved_guides', JSON.stringify(savedArticleIds));
+      localStorage.setItem('destination_saved_guides', JSON.stringify(savedArticleIds));
     } catch {
       // Storage unavailable fallback
     }
@@ -444,7 +444,7 @@ export default function App() {
                   Travel As Cultural Exchange, Not Just Consumption
                 </h3>
                 <p className="text-sm text-stone-600 leading-relaxed max-w-2xl mx-auto">
-                  Every guide in Wanderlust Chronicles is built on deep respect for local communities, authentic culinary traditions, environmental stewardship, and realistic financial budgets. We believe that stepping into the unknown should make you more humble, empathetic, and attuned to the beauty of our world.
+                  Every guide in Destination Diaries is built on deep respect for local communities, authentic culinary traditions, environmental stewardship, and realistic financial budgets. We believe that stepping into the unknown should make you more humble, empathetic, and attuned to the beauty of our world.
                 </p>
               </div>
             </section>

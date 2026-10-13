@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Compass, Search, Bookmark, Menu, X, ArrowUpRight } from 'lucide-react';
+import { Compass, Search, Bookmark, Menu, X } from 'lucide-react';
 
 interface HeaderProps {
   onGoHome: () => void;
@@ -43,7 +43,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div>
               <span className="font-editorial text-lg sm:text-xl font-bold tracking-tight text-stone-900 block leading-tight">
-                Wanderlust Chronicles
+                Destination Diaries
               </span>
             </div>
           </button>
@@ -128,16 +128,6 @@ export const Header: React.FC<HeaderProps> = ({
             )}
           </button>
 
-          {/* Vercel Free Deploy Guide Modal Trigger */}
-          <button
-            onClick={onOpenDeployModal}
-            className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-stone-700 bg-white border border-stone-200 rounded-lg hover:bg-stone-50 hover:border-stone-300 transition-colors shadow-2xs"
-            title="How to host for free on Vercel"
-          >
-            <span className="w-2 h-2 rounded-full bg-stone-900 inline-block"></span>
-            Host on Vercel
-            <ArrowUpRight className="w-3.5 h-3.5 text-stone-400" />
-          </button>
 
           {/* Mobile Menu Toggle */}
           <button

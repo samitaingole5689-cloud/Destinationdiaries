@@ -1,16 +1,15 @@
 import React from 'react';
-import { Compass, ArrowUp, ArrowUpRight } from 'lucide-react';
+import { Compass, ArrowUp } from 'lucide-react';
 import { ALL_ARTICLES } from '../data/articles.ts';
 
 interface FooterProps {
   onSelectArticle: (slug: string) => void;
-  onOpenDeployModal: () => void;
+  onOpenDeployModal?: () => void;
   onOpenBookmarks: () => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({
   onSelectArticle,
-  onOpenDeployModal,
   onOpenBookmarks,
 }) => {
   const scrollToTop = () => {
@@ -28,7 +27,7 @@ export const Footer: React.FC<FooterProps> = ({
                 <Compass className="w-4 h-4 text-amber-200" />
               </div>
               <span className="font-editorial text-xl font-bold text-white tracking-tight">
-                Wanderlust Chronicles
+                Destination Diaries
               </span>
             </div>
 
@@ -37,13 +36,6 @@ export const Footer: React.FC<FooterProps> = ({
             </p>
 
             <div className="pt-2 flex items-center gap-4 text-xs">
-              <button
-                onClick={onOpenDeployModal}
-                className="text-amber-300 hover:text-amber-200 flex items-center gap-1 font-semibold"
-              >
-                <span>Deploy Free to Vercel</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </button>
               <button
                 onClick={onOpenBookmarks}
                 className="text-stone-400 hover:text-stone-200"
@@ -79,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
           <div>
-            © {new Date().getFullYear()} Wanderlust Chronicles. Curated for curious, respectful global travelers.
+            © {new Date().getFullYear()} Destination Diaries. Curated for curious, respectful global travelers.
           </div>
 
           <div className="flex items-center gap-6">

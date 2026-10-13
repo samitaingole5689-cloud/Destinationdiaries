@@ -25,14 +25,14 @@ function renderArticleHtml(article: Article): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(article.title)} | Wanderlust Chronicles</title>
+  <title>${escapeHtml(article.title)} | Destination Diaries</title>
   <meta name="description" content="${escapeHtml(article.subtitle)}">
-  <link rel="canonical" href="https://wanderlust-chronicles.vercel.app${article.url}">
+  <link rel="canonical" href="https://destination-diaries.vercel.app${article.url}">
   <meta property="og:type" content="article">
   <meta property="og:title" content="${escapeHtml(article.title)}">
   <meta property="og:description" content="${escapeHtml(article.subtitle)}">
   <meta property="og:image" content="${article.featuredImage.url}">
-  <meta property="og:url" content="https://wanderlust-chronicles.vercel.app${article.url}">
+  <meta property="og:url" content="https://destination-diaries.vercel.app${article.url}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(article.title)}">
   <meta name="twitter:description" content="${escapeHtml(article.subtitle)}">
@@ -55,7 +55,7 @@ function renderArticleHtml(article: Article): string {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Wanderlust Chronicles"
+      "name": "Destination Diaries"
     }
   }
   </script>
@@ -69,7 +69,7 @@ function renderArticleHtml(article: Article): string {
       <a href="/" class="brand-link">
         <div class="brand-icon">🧭</div>
         <div>
-          <span class="brand-title">Wanderlust Chronicles</span>
+          <span class="brand-title">Destination Diaries</span>
         </div>
       </a>
       <div class="header-actions">
@@ -404,7 +404,7 @@ function renderArticleHtml(article: Article): string {
     <div class="footer-container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="footer-brand-title">Wanderlust Chronicles</div>
+          <div class="footer-brand-title">Destination Diaries</div>
           <p class="footer-desc">An independent travel journalism compendium exploring 10 extraordinary world destinations. Every guide features comprehensive itineraries, deep cultural insights, local culinary maps, and honest budget assessments.</p>
         </div>
         <div>
@@ -417,7 +417,7 @@ function renderArticleHtml(article: Article): string {
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© 2026 Wanderlust Chronicles. Curated for curious, respectful global travelers.</div>
+        <div>© 2026 Destination Diaries. Curated for curious, respectful global travelers.</div>
         <div><a href="/" style="color:#a8a29e;">Back to Home</a></div>
       </div>
     </div>
