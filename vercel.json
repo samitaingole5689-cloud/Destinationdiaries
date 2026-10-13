@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/articles/:path*", "destination": "/articles/:path*" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/((?!articles|css|js|assets|sitemap\\.xml).*)", "destination": "/index.html" }
+  ]
+}
