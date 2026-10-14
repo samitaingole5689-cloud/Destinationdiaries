@@ -17,7 +17,7 @@ export const amalfiArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: '/images/amalfi_positano_939794298494648.jpg',
+    url: '/images/amalfi_positano_939794298494648.webp',
     alt: 'Colorful pastel houses of Positano stacked on vertical cliffs tumbling into the turquoise Mediterranean sea in Italy',
     caption: 'The dramatic cliffside pyramid of Positano’s pastel villas descending into the cobalt waters of the Tyrrhenian Sea.',
     photographer: 'Matthew Waring',

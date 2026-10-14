@@ -17,14 +17,14 @@ export const dubaiArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: '/src/assets/images/dubai_burj_khalifa_sunset_1791969848550.jpg',
+    url: '/src/assets/images/dubai_burj_khalifa_sunset_1791969848550.webp',
     alt: 'Burj Khalifa soaring above the glittering skyline, highway lights, and fountains of Downtown Dubai at sunset',
     caption: 'The world’s tallest tower, the Burj Khalifa, rising 828 meters above Downtown Dubai and the Arabian desert.',
     photographer: 'Zheng Zhou',
   },
   secondaryImages: [
     {
-      url: '/src/assets/images/dubai_desert_dunes_1791969224233.jpg',
+      url: '/src/assets/images/dubai_desert_dunes_1791969224233.webp',
       alt: 'Rolling golden sand dunes of the Arabian desert during a sunset 4x4 safari expedition',
       caption: 'Windswept crimson sand dunes of the Dubai Desert Conservation Reserve glowing at twilight.',
       photographer: 'NASA',

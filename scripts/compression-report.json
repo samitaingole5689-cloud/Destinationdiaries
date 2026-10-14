@@ -1,0 +1,151 @@
+{
+  "totalOriginalBytes": 6357044,
+  "totalCompressedBytes": 2167626,
+  "totalSaved": 4189418,
+  "results": [
+    {
+      "file": "public/images/amalfi_positano_939794298494648.jpg",
+      "originalBytes": 112460,
+      "compressedBytes": 112460,
+      "width": 640,
+      "height": 1136,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/images/queenstown-featured.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/images/queenstown-lake-wakatipu.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/images/queenstown_lake_wakatipu_1086825363473132.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/images/skyline-gondola-queenstown.webp",
+      "originalBytes": 151214,
+      "compressedBytes": 143970,
+      "width": 1200,
+      "height": 800,
+      "format": "webp",
+      "success": true
+    },
+    {
+      "file": "public/assets/images/queenstown_lake_wakatipu_1086825363473132.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/src/assets/images/amalfi_positano_939794298494648.jpg",
+      "originalBytes": 112460,
+      "compressedBytes": 112460,
+      "width": 640,
+      "height": 1136,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/src/assets/images/dubai_burj_khalifa_sunset_1791969848550.jpg",
+      "originalBytes": 1015293,
+      "compressedBytes": 216612,
+      "width": 1376,
+      "height": 768,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/src/assets/images/dubai_desert_dunes_1791969224233.jpg",
+      "originalBytes": 795348,
+      "compressedBytes": 125406,
+      "width": 1376,
+      "height": 768,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "public/src/assets/images/queenstown_lake_wakatipu_1086825363473132.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/amalfi_positano_939794298494648.jpg",
+      "originalBytes": 112460,
+      "compressedBytes": 112460,
+      "width": 640,
+      "height": 1136,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/dubai_burj_khalifa_sunset_1791969848550.jpg",
+      "originalBytes": 1015293,
+      "compressedBytes": 216612,
+      "width": 1376,
+      "height": 768,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/dubai_desert_dunes_1791969224233.jpg",
+      "originalBytes": 795348,
+      "compressedBytes": 125406,
+      "width": 1376,
+      "height": 768,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/queenstown-lake-wakatipu.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/queenstown_lake_wakatipu_1086825363473132.jpg",
+      "originalBytes": 299422,
+      "compressedBytes": 122610,
+      "width": 1440,
+      "height": 849,
+      "format": "jpeg",
+      "success": true
+    },
+    {
+      "file": "src/assets/images/skyline-gondola-queenstown.webp",
+      "originalBytes": 151214,
+      "compressedBytes": 143970,
+      "width": 1200,
+      "height": 800,
+      "format": "webp",
+      "success": true
+    }
+  ]
+}

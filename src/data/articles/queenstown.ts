@@ -17,14 +17,14 @@ export const queenstownArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: '/images/queenstown-lake-wakatipu.jpg',
+    url: '/images/queenstown-lake-wakatipu.webp',
     alt: 'Panoramic aerial view of Queenstown nestled beside Lake Wakatipu with The Remarkables mountain range',
     caption: 'The lightning-bolt waters of Lake Wakatipu framed by the sheer serrated ridges of The Remarkables.',
     photographer: 'Sven Martin',
   },
   secondaryImages: [
     {
-      url: 'https://snowfall.co.nz/wp-content/uploads/2026/03/skyline-gondola-queenstown.webp',
+      url: '/images/skyline-gondola-queenstown.webp',
       alt: 'Dramatic fjord cliffs and misty waterfalls of Milford Sound in Fiordland National Park',
       caption: "The Skyline Gondola ascending Bob's Peak with panoramic views over Queenstown, Lake Wakatipu, and The Remarkables.",
       photographer: 'Pablo Heimplatz',
