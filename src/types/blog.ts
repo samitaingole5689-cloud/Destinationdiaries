@@ -51,6 +51,14 @@ export interface Article {
   url: string;
   title: string;
   subtitle: string;
+  seoTitle?: string;
+  metaDescription?: string;
+  aeo?: {
+    famousForQuestion: string;
+    famousForAnswer: string;
+    bestPlacesQuestion: string;
+    bestPlacesAnswer: string;
+  };
   destination: string;
   country: string;
   region: 'Asia' | 'Europe' | 'North America' | 'Middle East' | 'Oceania';

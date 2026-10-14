@@ -25,17 +25,17 @@ function renderArticleHtml(article: Article): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(article.title)} | Destination Diaries</title>
-  <meta name="description" content="${escapeHtml(article.subtitle)}">
+  <title>${escapeHtml(article.seoTitle || `${article.title} | Destination Diaries`)}</title>
+  <meta name="description" content="${escapeHtml(article.metaDescription || article.subtitle)}">
   <link rel="canonical" href="https://destination-diaries.vercel.app${article.url}">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="${escapeHtml(article.title)}">
-  <meta property="og:description" content="${escapeHtml(article.subtitle)}">
+  <meta property="og:title" content="${escapeHtml(article.seoTitle || article.title)}">
+  <meta property="og:description" content="${escapeHtml(article.metaDescription || article.subtitle)}">
   <meta property="og:image" content="${article.featuredImage.url}">
   <meta property="og:url" content="https://destination-diaries.vercel.app${article.url}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${escapeHtml(article.title)}">
-  <meta name="twitter:description" content="${escapeHtml(article.subtitle)}">
+  <meta name="twitter:title" content="${escapeHtml(article.seoTitle || article.title)}">
+  <meta name="twitter:description" content="${escapeHtml(article.metaDescription || article.subtitle)}">
   <meta name="twitter:image" content="${article.featuredImage.url}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,8 +45,8 @@ function renderArticleHtml(article: Article): string {
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "${escapeHtml(article.title)}",
-    "description": "${escapeHtml(article.subtitle)}",
+    "headline": "${escapeHtml(article.seoTitle || article.title)}",
+    "description": "${escapeHtml(article.metaDescription || article.subtitle)}",
     "image": "${article.featuredImage.url}",
     "datePublished": "2026-10-12",
     "author": {
@@ -179,6 +179,11 @@ function renderArticleHtml(article: Article): string {
       <!-- 2. Why It’s a Dream Destination -->
       <section id="why-dream-destination" class="article-section">
         <h2 class="section-h2">2. Why It’s a Dream Destination</h2>
+        ${article.aeo ? `
+        <div class="aeo-qa-box" style="background:#fef3c7; border-left:4px solid #b45309; padding:0.9rem 1.15rem; margin-bottom:1.25rem; border-radius:0.375rem;">
+          <h3 style="font-size:1rem; font-weight:700; color:#78350f; margin:0 0 0.35rem; font-family:var(--font-sans);">${escapeHtml(article.aeo.famousForQuestion)}</h3>
+          <p style="color:#451a03; margin:0; font-size:0.925rem; line-height:1.55;">${escapeHtml(article.aeo.famousForAnswer)}</p>
+        </div>` : ''}
         <div class="prose-text">${escapeHtml(article.sections.whyDreamDestination)}</div>
         ${secondaryImg ? `
         <figure class="inline-figure">
@@ -193,6 +198,11 @@ function renderArticleHtml(article: Article): string {
       <!-- 3. Major Attractions -->
       <section id="major-attractions" class="article-section">
         <h2 class="section-h2">3. Major Attractions</h2>
+        ${article.aeo ? `
+        <div class="aeo-qa-box" style="background:#fef3c7; border-left:4px solid #b45309; padding:0.9rem 1.15rem; margin-bottom:1.25rem; border-radius:0.375rem;">
+          <h3 style="font-size:1rem; font-weight:700; color:#78350f; margin:0 0 0.35rem; font-family:var(--font-sans);">${escapeHtml(article.aeo.bestPlacesQuestion)}</h3>
+          <p style="color:#451a03; margin:0; font-size:0.925rem; line-height:1.55;">${escapeHtml(article.aeo.bestPlacesAnswer)}</p>
+        </div>` : ''}
         <p style="font-size:0.9rem; color:#57534e;">Explore ${escapeHtml(article.destination)}’s most iconic landmarks, architectural gems, and natural wonders with complete visitor intelligence:</p>
         <div class="attractions-container">
           ${article.sections.majorAttractions.map((attraction, idx) => `
@@ -433,7 +443,7 @@ function renderArticleHtml(article: Article): string {
       </div>
       <div class="footer-bottom">
         <div>© 2026 Destination Diaries. Curated for curious, respectful global travelers.</div>
-        <div><a href="/" style="color:#a8a29e;">Back to Home</a></div>
+        <div><a href="/" style="color:#a8a29e;">Destination Diaries Homepage</a></div>
       </div>
     </div>
   </footer>
