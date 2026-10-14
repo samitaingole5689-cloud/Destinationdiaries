@@ -1,5 +1,5 @@
 {
-  "name": "Wanderlust Chronicles",
+  "name": "Destination Diaries",
   "description": "An in-depth travel blog covering 10 world-class destinations with long-form guides, attractions, local cuisines, budgets, and travel tips.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
