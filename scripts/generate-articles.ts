@@ -126,7 +126,7 @@ function renderArticleHtml(article: Article): string {
   <!-- Featured Lead Image -->
   <div class="featured-image-wrapper">
     <div class="featured-image-card">
-      <img src="${article.featuredImage.url}" alt="${escapeHtml(article.featuredImage.alt)}">
+      <img src="${article.featuredImage.url}" alt="${escapeHtml(article.featuredImage.alt)}"${article.id === 'article-bali' ? ' style="aspect-ratio: 16 / 9; width: 100%; height: auto; object-fit: cover; object-position: center;"' : ''}>
       <div class="image-caption-bar">
         <span>${escapeHtml(article.featuredImage.caption)}</span>
         ${article.featuredImage.photographer ? `<span>Photo: ${escapeHtml(article.featuredImage.photographer)}</span>` : ''}
@@ -143,11 +143,11 @@ function renderArticleHtml(article: Article): string {
         <li><a href="#introduction" class="toc-link">1. Introduction</a></li>
         <li><a href="#why-dream-destination" class="toc-link">2. Why It’s a Dream Destination</a></li>
         <li><a href="#major-attractions" class="toc-link">3. Major Attractions</a></li>
-        <li><a href="#things-to-do" class="toc-link">4. Things to Do</a></li>
+        <li><a href="#things-to-do" class="toc-link">4. Things to Do in ${escapeHtml(article.destination)}</a></li>
         <li><a href="#food-to-try" class="toc-link">5. Food to Try</a></li>
-        <li><a href="#best-time-to-visit" class="toc-link">6. Best Time to Visit</a></li>
+        <li><a href="#best-time-to-visit" class="toc-link">6. Best Time to Visit ${escapeHtml(article.destination)}</a></li>
         <li><a href="#how-to-get-there" class="toc-link">7. How to Get There</a></li>
-        <li><a href="#where-to-stay" class="toc-link">8. Where to Stay</a></li>
+        <li><a href="#where-to-stay" class="toc-link">8. Where to Stay in ${escapeHtml(article.destination)}</a></li>
         <li><a href="#estimated-budget" class="toc-link">9. Estimated Budget</a></li>
         <li><a href="#travel-tips" class="toc-link">10. Travel Tips</a></li>
         <li><a href="#what-makes-it-memorable" class="toc-link">11. What Makes It Memorable</a></li>
@@ -221,7 +221,8 @@ function renderArticleHtml(article: Article): string {
 
       <!-- 4. Things to Do -->
       <section id="things-to-do" class="article-section">
-        <h2 class="section-h2">4. Things to Do</h2>
+        <h2 class="section-h2">4. What Are the Best Things to Do in ${escapeHtml(article.destination)}?</h2>
+        ${article.sections.thingsToDoSummary ? `<div class="prose-text" style="margin-bottom:1.25rem;">${escapeHtml(article.sections.thingsToDoSummary)}</div>` : ''}
         <div class="activities-list">
           ${article.sections.thingsToDo.map((act, idx) => `
           <div class="activity-item">
@@ -255,7 +256,7 @@ function renderArticleHtml(article: Article): string {
 
       <!-- 6. Best Time to Visit -->
       <section id="best-time-to-visit" class="article-section">
-        <h2 class="section-h2">6. Best Time to Visit</h2>
+        <h2 class="section-h2">6. What Is the Best Time to Visit ${escapeHtml(article.destination)}?</h2>
         <div class="prose-text">${escapeHtml(article.sections.bestTimeToVisit.summary)}</div>
         <div class="season-grid">
           <div class="season-card">
@@ -303,7 +304,8 @@ function renderArticleHtml(article: Article): string {
 
       <!-- 8. Where to Stay -->
       <section id="where-to-stay" class="article-section">
-        <h2 class="section-h2">8. Where to Stay</h2>
+        <h2 class="section-h2">8. Where Should You Stay in ${escapeHtml(article.destination)}?</h2>
+        ${article.sections.whereToStaySummary ? `<div class="prose-text" style="margin-bottom:1.25rem;">${escapeHtml(article.sections.whereToStaySummary)}</div>` : ''}
         <div class="stays-grid">
           ${article.sections.whereToStay.map((stay) => `
           <div class="stay-card">

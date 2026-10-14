@@ -19,14 +19,14 @@ export const parisArticle: Article = {
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80',
     alt: 'The Eiffel Tower framed by classic Parisian apartment balconies on a sunny afternoon in Paris',
-    caption: 'Classic wrought-iron balconies and limestone facades overlooking the Eiffel Tower across the Seine.',
+    caption: 'The iconic Eiffel Tower standing tall along the banks of the Seine River, Paris.',
     photographer: 'Anthony DELANOIX',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=80',
       alt: 'The Louvre Museum glass pyramid illuminated at dusk reflecting on the courtyard pools',
-      caption: 'I.M. Pei’s glass pyramid contrasting majestically against the French Renaissance palace of the Musée du Louvre.',
+      caption: 'Evening light on Paris’s iconic Pont Alexandre III bridge across the Seine River.',
       photographer: 'Michael Fousert',
     },
     {
@@ -96,6 +96,8 @@ Add to this aesthetic marvel more than a thousand art galleries and 130 museums�
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Paris include browsing masterworks at the Musée d’Orsay and the Louvre, wandering cobblestone lanes in Montmartre up to Sacré-Cœur, taking a sunset cruise along the Seine, picnicking in the Luxembourg Gardens, and lingering over espresso at historic pavement cafés in Saint-Germain.',
+
     thingsToDo: [
       'Order an espresso and pain au chocolat at a pavement café on Boulevard Saint-Germain, watching stylish Parisians pass by for a languid hour.',
       'Browse vintage leather-bound editions and botanical prints at the historic open-air Bouquinistes bookstalls along the banks of the Seine.',
@@ -133,7 +135,7 @@ Add to this aesthetic marvel more than a thousand art galleries and 130 museums�
     ],
 
     bestTimeToVisit: {
-      summary: 'Paris shines across all seasons, but spring blossoms and crisp autumn foliage offer the most pleasant weather for endless walking.',
+      summary: 'The best time to visit Paris is during the shoulder seasons of spring (April to May) and autumn (September to October), when mild temperatures, blooming botanical gardens, and golden tree-lined boulevards create ideal walking weather with far fewer crowds than summer.',
       peakSeason: 'June to August (Long sunny days, festive open-air riverside pop-ups, but dense crowds and many local boutiques close during August vacation).',
       shoulderSeason: 'April–May and September–October (Ideal mild temperatures, magnificent garden blooms or golden foliage, and manageable museum queues).',
       lowSeason: 'November to February (Cooler damp days, moody atmospheric skies, cozy brasserie fireplaces, and lowest flight/hotel pricing).',
@@ -144,6 +146,8 @@ Add to this aesthetic marvel more than a thousand art galleries and 130 museums�
       localTransit: 'The Paris Métro system has over 300 stations across 16 lines—you are never more than 500 meters from a metro stop anywhere in the city. Use the Navigo Easy rechargeable card or Apple/Google Wallet.',
       entryRequirements: 'Citizens of EU/EEA countries travel freely. US, Canadian, UK, and Australian passport holders enter visa-free for up to 90 days within a 180-day period (Schengen Area rules).',
     },
+
+    whereToStaySummary: 'The best neighborhoods to stay in Paris include Le Marais for fashionable shopping and historic mansions, Saint-Germain-des-Prés for romantic literary cafes and proximity to the Louvre, and Canal Saint-Martin for a trendy, authentic culinary scene with waterside strolls.',
 
     whereToStay: [
       {

@@ -19,14 +19,14 @@ export const switzerlandArticle: Article = {
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1600&q=80',
     alt: 'The majestic snow-covered Matterhorn peak reflecting in the still alpine waters of Riffelsee in Zermatt, Switzerland',
-    caption: 'The iconic Matterhorn summit mirroring in the pristine alpine waters of Lake Riffelsee at sunrise.',
+    caption: 'Traditional wooden chalets and a mountain river flowing through an alpine Swiss village.',
     photographer: 'Joshua Earle',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80',
       alt: 'A red Swiss mountain train winding along high alpine viaducts surrounded by pine forests and snowy peaks',
-      caption: 'The Glacier Express and Bernina line threading through UNESCO World Heritage mountain viaducts.',
+      caption: 'The iconic granite cliffs and pine tree lined river of Yosemite Valley at sunset.',
       photographer: 'Bailey Zindel',
     },
     {
@@ -96,6 +96,8 @@ Moreover, the diversity of experiences within short distances is astounding. In 
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Switzerland include riding the Glacier Express panoramic train through breathtaking alpine passes, hiking the Five Lakes Walk beneath the Matterhorn in Zermatt, cruising the turquoise waters of Lake Brienz and Lake Geneva, crossing the cliff-walk suspension bridge at Grindelwald First, and indulging in bubbling Swiss fondue inside a cozy mountain chalet.',
+
     thingsToDo: [
       'Ride the Glacier Express—"the slowest express train in the world"—traversing 291 bridges and 91 tunnels between Zermatt and St. Moritz over an eight-hour scenic feast.',
       'Hike the Five Lakes Walk (5-Seenweg) in Zermatt, where the Matterhorn is reflected in a series of crystal-clear alpine lakes.',
@@ -133,7 +135,7 @@ Moreover, the diversity of experiences within short distances is astounding. In 
     ],
 
     bestTimeToVisit: {
-      summary: 'Switzerland transforms dramatically with the seasons; choose summer for alpine hiking and lake swimming, or winter for world-class snow sports.',
+      summary: 'The best time to visit Switzerland depends on your travel goals: June through September is ideal for alpine hiking, wildflower meadows, and lake cruises, while December through March offers premier skiing, snowboarding, and festive winter chalets in the Swiss Alps.',
       peakSeason: 'July–August (Hiking, blooming alpine meadows, pleasant 22°C temperatures) & January–February (Peak ski season with powder snow and festive chalets).',
       shoulderSeason: 'June & September to mid-October (Golden autumn larch forests, uncrowded mountain trains, cool crisp air, and pleasant hiking conditions).',
       lowSeason: 'April–May and November (Inter-season: many mountain cable cars close for scheduled maintenance, snow is melting or wet, but quietest cities).',
@@ -144,6 +146,8 @@ Moreover, the diversity of experiences within short distances is astounding. In 
       localTransit: 'The Swiss Travel Pass is the gold standard: an all-in-one ticket providing unlimited travel on trains, buses, boats, and city trams across the country, plus free entry to 500+ museums.',
       entryRequirements: 'Switzerland is part of the Schengen Zone. Valid passport holders from the US, UK, Canada, Australia, and EU do not need a visa for tourist stays up to 90 days.',
     },
+
+    whereToStaySummary: 'The best places to stay in Switzerland include Zermatt for car-free alpine luxury with direct Matterhorn views, the Lauterbrunnen Valley or Wengen for traditional chalets framed by dramatic waterfall cliffs, and Lucerne for historic lakefront hotels and central rail connections.',
 
     whereToStay: [
       {

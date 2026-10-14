@@ -96,6 +96,8 @@ Beyond the resorts, the Maldives is home to some of the planet’s richest marin
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in the Maldives include staying in an iconic overwater villa above a turquoise lagoon, snorkeling with feeding manta rays in Hanifaru Bay, swimming with whale sharks in South Ari Atoll, dining beneath the waves in an all-glass underwater restaurant, and embarking on a sunset dolphin cruise aboard a wooden dhoni.',
+
     thingsToDo: [
       'Board a scenic de Havilland Twin Otter seaplane transfer, marveling at the aerial geometry of glowing coral rings from 1,000 feet up.',
       'Embark on a sunset dolphin cruise aboard a traditional wooden dhoni boat, watching playful spinner dolphins leap alongside the bow wave.',
@@ -133,7 +135,7 @@ Beyond the resorts, the Maldives is home to some of the planet’s richest marin
     ],
 
     bestTimeToVisit: {
-      summary: 'The Maldives has warm equatorial weather all year, governed by two monsoon seasons: the dry Iruvai and the wetter Hulhangu.',
+      summary: 'The best time to visit the Maldives is during the dry northeast monsoon from December through April, when you can expect endless sunshine, calm ocean waters, and crystal-clear underwater visibility ideal for snorkeling and diving.',
       peakSeason: 'December to April (The dry northeast monsoon: crystal-clear underwater visibility, calm seas, blue skies, and optimal conditions for diving and sunbathing).',
       shoulderSeason: 'May and November (Transition months: great weather value, occasional brief showers, high marine life activity, and lower resort pricing).',
       lowSeason: 'June to October (The southwest monsoon: frequent afternoon tropical rain squalls, occasional winds, rougher seas, but the absolute best season for surfing and manta ray encounters in Hanifaru Bay).',
@@ -144,6 +146,8 @@ Beyond the resorts, the Maldives is home to some of the planet’s richest marin
       localTransit: 'From the airport, transfers to your island are handled either by speedboat (for resorts in North/South Malé Atoll, 15–45 minutes) or scenic seaplane / domestic flight plus speedboat for more distant outer atolls.',
       entryRequirements: 'A free 30-day tourist visa is granted on arrival to all nationalities with a valid passport, confirmed accommodation booking, and a completed IMUGA digital traveler declaration form submitted 96 hours before departure.',
     },
+
+    whereToStaySummary: 'The best places to stay in the Maldives include private luxury resort islands in Baa or Noonu Atoll for barefoot overwater opulence, North or South Ari Atoll for world-class house-reef diving and all-inclusive value, or local islands like Dhigurah and Maafushi for budget-friendly guesthouses and whale shark tours.',
 
     whereToStay: [
       {

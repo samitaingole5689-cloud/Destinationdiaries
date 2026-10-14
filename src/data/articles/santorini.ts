@@ -19,14 +19,14 @@ export const santoriniArticle: Article = {
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80',
     alt: 'Iconic blue-domed churches and whitewashed cubist houses overlooking the azure Aegean caldera in Oia, Santorini',
-    caption: 'The stark contrast of Aegean blue domes and whitewashed Cycladic architecture cascading down the volcanic rim of Oia.',
+    caption: 'Panoramas of traditional pastel and white cave houses sprawling along the cliffs of Oia.',
     photographer: 'Heidi KJewell',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=80',
       alt: 'Panoramic view of cliffside hotels and infinity pools perched high above the Santorini volcanic caldera',
-      caption: 'Cliff-clinging infinity pools carved directly into the volcanic pumice facing the sunken volcanic crater.',
+      caption: 'Framed view of the deep blue Santorini caldera and vibrant pink bougainvillea.',
       photographer: 'Matthew Waring',
     },
     {
@@ -96,6 +96,8 @@ Furthermore, Santorini offers a romantic intimacy that feels nearly theatrical. 
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Santorini include hiking the spectacular caldera rim trail from Fira to Oia, sailing on an afternoon catamaran to swim in volcanic hot springs, savoring fresh grilled octopus at Ammoudi Bay, exploring the preserved Bronze Age ruins of Akrotiri, and tasting mineral-rich Assyrtiko wines at cliffside vineyards.',
+
     thingsToDo: [
       'Charter an afternoon catamaran sailing cruise across the caldera, swimming in the warm sulfurous waters of Nea Kameni volcano and dining on fresh grilled sea bream at sunset.',
       'Embark on a private tasting tour of historic volcanic wineries (like Santo Wines or Domaine Sigalas), sampling bone-dry, mineral-rich Assyrtiko and honeyed Vinsanto dessert wine.',
@@ -133,7 +135,7 @@ Furthermore, Santorini offers a romantic intimacy that feels nearly theatrical. 
     ],
 
     bestTimeToVisit: {
-      summary: 'Santorini experiences hot, dry summers and mild winters, but timing your visit avoids extreme midday heat and overwhelming cruise ship passenger congestion.',
+      summary: 'The best time to visit Santorini is during the shoulder months from May to June and September to mid-October, when the Aegean Sea is warm for swimming, temperatures are comfortable for hiking, and the caldera pathways are free from peak-summer crowds.',
       peakSeason: 'July and August (Hottest weather 32°C+, vibrant beach club parties, high accommodation prices, and packed village pathways).',
       shoulderSeason: 'May to June and September to mid-October (The absolute golden window: warm ocean swimming, pleasant hiking temperatures, stunning sunsets, and calmer crowds).',
       lowSeason: 'November to April (Most cliffside hotels and restaurants close for the winter; peaceful, authentic local atmosphere with cooler temperatures around 12°C - 15°C).',
@@ -144,6 +146,8 @@ Furthermore, Santorini offers a romantic intimacy that feels nearly theatrical. 
       localTransit: 'High-speed ferries (Seajets) and conventional car ferries (Blue Star) link Santorini’s Athinios Port to Piraeus (Athens) in 4.5 to 7 hours, as well as Mykonos, Naxos, Paros, and Crete.',
       entryRequirements: 'Part of the European Schengen Area. Travelers from the US, Canada, Australia, and UK can stay up to 90 days without a visa.',
     },
+
+    whereToStaySummary: 'The best places to stay in Santorini include Imerovigli for peaceful luxury and panoramic sunset vistas away from tour groups, Oia for iconic whitewashed cave suites and vibrant boutiques, and Kamari or Perissa on the east coast for black-sand beaches and budget-friendly hotels.',
 
     whereToStay: [
       {

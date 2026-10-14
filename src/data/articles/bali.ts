@@ -18,15 +18,14 @@ export const baliArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Terraced emerald rice paddies of Tegallalang surrounded by coconut palms in Ubud, Bali',
-    caption: 'The UNESCO-accredited subak irrigation systems carving through the mist-shrouded highlands of Ubud.',
-    photographer: 'Aron Visuals',
+    alt: 'Pura Ulun Danu Bratan Temple in Bali',
+    caption: 'Pura Ulun Danu Bratan Temple',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1000&q=80',
       alt: 'Dramatic limestone sea cliffs and crashing azure waves in Uluwatu, southern Bali',
-      caption: 'The dramatic cliffs of the Bukit Peninsula where ancient temples gaze out over the Indian Ocean.',
+      caption: 'Tanah Lot Temple',
       photographer: 'Alexander Popov',
     },
     {
@@ -96,6 +95,8 @@ Beyond spirituality, Bali’s physical geography is shockingly diverse for an is
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Bali include ascending the active volcanic caldera of Mount Batur at sunrise, undergoing sacred water purification rituals at Tirta Empul, catching peeling reef waves along Uluwatu’s limestone cliffs, exploring the UNESCO terraced rice fields in Ubud, and snorkeling with giant manta rays off Nusa Penida.',
+
     thingsToDo: [
       'Wake up at 2:00 AM for a guided pre-dawn trek to the summit of Mount Batur, cooking eggs in natural volcanic steam vents at sunrise.',
       'Participate in a traditional Melukat water purification ritual led by a local priest at the sacred spring pools of Tirta Empul Temple.',
@@ -133,7 +134,7 @@ Beyond spirituality, Bali’s physical geography is shockingly diverse for an is
     ],
 
     bestTimeToVisit: {
-      summary: 'Bali enjoys warm tropical weather year-round, but the island is distinctly divided into a dry sunny season and a tropical rainy monsoon season.',
+      summary: 'The best time to visit Bali is during the dry season from May through September, when sunny skies, low humidity, and pleasant ocean breezes create optimal conditions for sightseeing, beach activities, and outdoor adventure. May, June, and September offer the ideal sweet spot with excellent weather and thinner crowds than the peak July–August holiday rush.',
       peakSeason: 'July to August, plus Christmas & New Year (Sunny skies, low humidity, breezy surf conditions, but high hotel occupancy and busier roads).',
       shoulderSeason: 'May, June, and September (The absolute sweet spot: brilliant blue skies, lower room rates, comfortable temperatures, and thinner crowds).',
       lowSeason: 'October to April (Tropical wet season with frequent afternoon downpours, high humidity, lush glowing foliage, and the lowest accommodation prices).',
@@ -144,6 +145,8 @@ Beyond spirituality, Bali’s physical geography is shockingly diverse for an is
       localTransit: 'Ride-hailing apps Grab and Gojek are affordable and reliable in urban zones (Seminyak, Canggu, Sanur). For exploring diverse regions, hiring a private English-speaking car and driver costs only $40–$55 USD for a full 10-hour day.',
       entryRequirements: 'Most nationalities can obtain an electronic Visa on Arrival (e-VOA) for 30 days ($35 USD), extendable once. Complete the mandatory Indonesian Customs Declaration online 72 hours before arrival.',
     },
+
+    whereToStaySummary: 'The best areas to stay in Bali cater to distinct travel styles: choose Ubud for jungle retreats, yoga ashrams, and cultural arts; Uluwatu for dramatic limestone sea cliffs, world-class surf breaks, and luxury beach clubs; or Canggu and Pererenan for a vibrant café scene, boutique pool villas, and bohemian nightlife.',
 
     whereToStay: [
       {

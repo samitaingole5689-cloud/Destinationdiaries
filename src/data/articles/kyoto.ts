@@ -96,6 +96,8 @@ Furthermore, Kyoto is the birthplace of Japan’s most revered culinary and craf
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Kyoto include passing through the thousands of vermilion torii gates at Fushimi Inari, meditating before the zen rock gardens of Ryōan-ji, strolling through Arashiyama’s towering bamboo grove at daybreak, participating in a formal tea ceremony, and wandering the preserved wooden machiya alleyways of Gion.',
+
     thingsToDo: [
       'Stroll the stone-paved alleys of Ninenzaka and Sannenzaka in Higashiyama at dawn before shops open, admiring preserved timber machiya architecture.',
       'Participate in an authentic Chado (Way of Tea) ceremony in a quiet Daitoku-ji temple tearoom, savoring frothy stone-ground Uji matcha and a wagashi sweet.',
@@ -133,7 +135,7 @@ Furthermore, Kyoto is the birthplace of Japan’s most revered culinary and craf
     ],
 
     bestTimeToVisit: {
-      summary: 'Kyoto is legendary for its four distinct seasons, each offering a dramatic change in colors and temple atmosphere.',
+      summary: 'The best time to visit Kyoto is during spring (late March to mid-April) for spectacular cherry blossom canopies or autumn (October through November) for fiery Japanese maple foliage and pleasant, crisp walking weather.',
       peakSeason: 'Late March to early April (Cherry blossom season / Sakura) and November (Autumn maple foliage / Momiji): extraordinary natural beauty, but maximum hotel demand and heavy foot traffic.',
       shoulderSeason: 'May (Lush fresh green "ao-momiji" foliage, pleasant warm weather) and October (Crisp autumn breezes, comfortable walking conditions, fewer crowds).',
       lowSeason: 'January to February (Chilly winter with rare dusting of snow over temple roofs, providing ethereal, crowd-free contemplation) and July–August (Hot, muggy summer temperatures, though marked by the famous Gion Matsuri festival).',
@@ -144,6 +146,8 @@ Furthermore, Kyoto is the birthplace of Japan’s most revered culinary and craf
       localTransit: 'The Shinkansen bullet train connects Tokyo to Kyoto Station in just 2 hours and 15 minutes (Tokaido Line). Within Kyoto, navigate via the Kyoto subway lines, city buses, and affordable clean MK taxis.',
       entryRequirements: 'Passport holders from the US, UK, Canada, Australia, and EU receive a 90-day tourist visa waiver upon arrival. Complete the digital Visit Japan Web QR codes for immigration and customs before landing.',
     },
+
+    whereToStaySummary: 'The best areas to stay in Kyoto include Higashiyama for traditional wooden ryokan inns and historic temple streets, Downtown (Shimogyo and Nakagyo) for walkable restaurants and rapid subway connections, or Arashiyama for serene riverside ryokan hot springs surrounded by forested mountains.',
 
     whereToStay: [
       {

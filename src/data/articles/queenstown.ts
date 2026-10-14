@@ -17,16 +17,16 @@ export const queenstownArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/queenstown-lake-wakatipu.jpg',
     alt: 'Panoramic aerial view of Queenstown nestled beside Lake Wakatipu with The Remarkables mountain range',
     caption: 'The lightning-bolt waters of Lake Wakatipu framed by the sheer serrated ridges of The Remarkables.',
     photographer: 'Sven Martin',
   },
   secondaryImages: [
     {
-      url: 'https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&w=1000&q=80',
+      url: 'https://snowfall.co.nz/wp-content/uploads/2026/03/skyline-gondola-queenstown.webp',
       alt: 'Dramatic fjord cliffs and misty waterfalls of Milford Sound in Fiordland National Park',
-      caption: 'Mitre Peak rising 1,692 meters directly out of the glaciated waters of nearby Milford Sound.',
+      caption: "The Skyline Gondola ascending Bob's Peak with panoramic views over Queenstown, Lake Wakatipu, and The Remarkables.",
       photographer: 'Pablo Heimplatz',
     },
     {
@@ -96,6 +96,8 @@ Moreover, Queenstown serves as the launchpad into Tolkien’s Middle-earth. Surr
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Queenstown include bungy jumping or swinging through alpine canyons, taking a scenic cruise through Milford Sound, relaxing in cedar hot tubs at Onsen Hot Pools, jet boating on the Shotover River, cycling through Gibbston Valley wineries, and taking the Skyline Gondola for luge rides.',
+
     thingsToDo: [
       'Strap in for the Nevis Bungy or Nevis Catapult, propelling you 150 meters across a canyon at 100 km/h in 1.5 seconds of pure adrenaline.',
       'Rent an electric bike to pedal the Queenstown Trail wine trail through Gibbston Valley, stopping at boutique cellar doors like Peregrine and Chard Farm.',
@@ -133,7 +135,7 @@ Moreover, Queenstown serves as the launchpad into Tolkien’s Middle-earth. Surr
     ],
 
     bestTimeToVisit: {
-      summary: 'Queenstown is a true dual-season destination: thrilling outdoor adventures in summer and world-class alpine skiing in winter.',
+      summary: 'The best time to visit Queenstown is from December through February for warm summer hiking, lake swimming, and long daylight hours, or from July through August if you are visiting for world-class skiing on The Remarkables and Coronet Peak.',
       peakSeason: 'December to February (Summer: warm 22°C - 26°C days, 10:00 PM sunset daylight, lake swimming, mountain biking) & July to August (Winter: snow-covered peaks, ski fields at Coronet Peak and The Remarkables, Winter Festival).',
       shoulderSeason: 'March to May (Autumn: the foliage in nearby Arrowtown turns brilliant gold and fiery orange, calm lake waters, fewer crowds) & October to November (Spring blossoms, cascading waterfall melts, great value).',
       lowSeason: 'May and June (Inter-season: cooling temperatures, ski fields preparing to open, quietest time in town).',
@@ -144,6 +146,8 @@ Moreover, Queenstown serves as the launchpad into Tolkien’s Middle-earth. Surr
       localTransit: 'Queenstown is compact and walkable. For getting around the lake and out to Arrowtown or Frankton, the Orbus network costs just $2 NZD per ride with a Bee Card. Rental cars or campervans are essential for visiting Milford Sound or Wanaka.',
       entryRequirements: 'Passport holders from visa-waiver countries (including US, UK, EU, Canada) must obtain a New Zealand Electronic Travel Authority (NZeTA) online before traveling, which includes the International Visitor Conservation and Tourism Levy (IVL).',
     },
+
+    whereToStaySummary: 'The best places to stay in Queenstown are Queenstown Town Centre for walkable lakefront restaurants and activity departures, Kelvin Heights across Lake Wakatipu for quiet luxury resorts, or historic Arrowtown for gold rush charm and easy access to local ski fields.',
 
     whereToStay: [
       {

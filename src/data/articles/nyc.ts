@@ -19,14 +19,14 @@ export const nycArticle: Article = {
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80',
     alt: 'Yellow New York City taxi cabs speeding through the iconic skyscraper canyons of Manhattan at sunset',
-    caption: 'Classic yellow taxicabs racing past the soaring Art Deco canyons of Manhattan in golden afternoon light.',
+    caption: "Sunlight streaming through the vibrant billboard-lined streets of Manhattan's Times Square.",
     photographer: 'Oliver Niblett',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=1000&q=80',
       alt: 'Autumn foliage reflecting in the Central Park lake with the Manhattan skyline in the background',
-      caption: 'The vibrant autumn foliage of Central Park providing an 843-acre green oasis amidst the concrete grid.',
+      caption: 'Panoramic skyline view of Midtown Manhattan centered on the iconic Empire State Building.',
       photographer: 'Jermaine Ee',
     },
     {
@@ -96,6 +96,8 @@ Beyond iconic landmarks, New York’s true magic is its hyper-condensed diversit
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in New York City include taking in panoramic skyline views from Top of the Rock, walking across the Brooklyn Bridge at dawn, exploring the masterworks of the Met and MoMA, catching an evening Broadway show, and getting lost in the leafy streets and jazz clubs of Greenwich Village.',
+
     thingsToDo: [
       'Catch a critically acclaimed evening Broadway production or cutting-edge Off-Broadway play in the historic Theatre District.',
       'Spend a Sunday morning browsing vintage vinyl, artisanal clothing, and international food stalls at the Brooklyn Flea or Smorgasburg in Williamsburg.',
@@ -133,7 +135,7 @@ Beyond iconic landmarks, New York’s true magic is its hyper-condensed diversit
     ],
 
     bestTimeToVisit: {
-      summary: 'New York is magnetic throughout the year, but autumn and late spring showcase the city at its most pedestrian-friendly and vibrant.',
+      summary: 'The best time to visit New York City is during the autumn months from September to November, when crisp comfortable temperatures and vibrant Central Park foliage make walking a pleasure, or during May and June for lively springtime rooftop dining and street life.',
       peakSeason: 'September to November (Crisp 15°C - 20°C temperatures, fiery Central Park autumn foliage, fashion week, marathon excitement) and December (Magical holiday decorations, Rockefeller Center tree, festive window displays).',
       shoulderSeason: 'April to June (Spring cherry blossoms in Brooklyn Botanic Garden, pleasant walking weather, buzzing rooftop bars).',
       lowSeason: 'January to February (Frigid sub-zero winds, occasional snowstorms, but lowest hotel rates of the year and NYC Restaurant Week deals) and late July–August (Humid, hot days, though filled with free outdoor concerts and film screenings).',
@@ -144,6 +146,8 @@ Beyond iconic landmarks, New York’s true magic is its hyper-condensed diversit
       localTransit: 'The MTA New York City Subway is the ultimate equalizer: 472 stations operating 24 hours a day, 7 days a week. Use OMNY contactless tap-to-pay with your credit card or phone wallet on all turnstiles ($2.90 per ride with a weekly fare cap).',
       entryRequirements: 'International visitors need a valid US visa or approved ESTA (Electronic System for Travel Authorization) for Visa Waiver Program countries, completed online at least 72 hours prior to departure.',
     },
+
+    whereToStaySummary: 'The best neighborhoods to stay in New York City are SoHo and Greenwich Village for historic cast-iron charm and world-class dining, Midtown Manhattan for first-timers who want walking access to Broadway and Central Park, or Williamsburg in Brooklyn for creative nightlife and skyline views.',
 
     whereToStay: [
       {

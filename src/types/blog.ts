@@ -76,6 +76,7 @@ export interface Article {
     introduction: string;
     whyDreamDestination: string;
     majorAttractions: Attraction[];
+    thingsToDoSummary?: string;
     thingsToDo: string[];
     foodToTry: FoodItem[];
     bestTimeToVisit: {
@@ -89,6 +90,7 @@ export interface Article {
       localTransit: string;
       entryRequirements: string;
     };
+    whereToStaySummary?: string;
     whereToStay: StayOption[];
     estimatedBudget: {
       currencyName: string;

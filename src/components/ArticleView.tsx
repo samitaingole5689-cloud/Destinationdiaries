@@ -67,11 +67,11 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
     { id: 'introduction', label: '1. Introduction' },
     { id: 'why-dream-destination', label: '2. Why It’s a Dream Destination' },
     { id: 'major-attractions', label: '3. Major Attractions' },
-    { id: 'things-to-do', label: '4. Things to Do' },
+    { id: 'things-to-do', label: `4. Things to Do in ${article.destination}` },
     { id: 'food-to-try', label: '5. Food to Try' },
-    { id: 'best-time-to-visit', label: '6. Best Time to Visit' },
+    { id: 'best-time-to-visit', label: `6. Best Time to Visit ${article.destination}` },
     { id: 'how-to-get-there', label: '7. How to Get There' },
-    { id: 'where-to-stay', label: '8. Where to Stay' },
+    { id: 'where-to-stay', label: `8. Where to Stay in ${article.destination}` },
     { id: 'estimated-budget', label: '9. Estimated Budget' },
     { id: 'travel-tips', label: '10. Travel Tips' },
     { id: 'what-makes-it-memorable', label: '11. What Makes It Memorable' },
@@ -199,7 +199,13 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
           <img
             src={article.featuredImage.url}
             alt={article.featuredImage.alt}
-            className="w-full h-[380px] sm:h-[500px] object-cover"
+            referrerPolicy="no-referrer"
+            style={article.id === 'article-bali' ? { aspectRatio: '16 / 9', objectFit: 'cover', objectPosition: 'center' } : undefined}
+            className={`w-full ${
+              article.id === 'article-bali'
+                ? 'aspect-video h-auto object-cover object-center'
+                : 'h-[380px] sm:h-[500px] object-cover'
+            }`}
           />
           <div className="p-3 sm:px-4 bg-white text-xs text-stone-500 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border-t border-stone-100">
             <span>{article.featuredImage.caption}</span>
@@ -296,6 +302,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
                   alt={article.secondaryImages[0].alt}
                   className="w-full h-80 object-cover"
                   loading="lazy"
+                  referrerPolicy="no-referrer"
                 />
                 <figcaption className="p-3 bg-white text-xs text-stone-500 flex justify-between border-t border-stone-100">
                   <span>{article.secondaryImages[0].caption}</span>
@@ -395,11 +402,16 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
             </div>
           </section>
 
-          {/* Section 4: Things to do */}
+          {/* Section 4: What are the best things to do */}
           <section id="things-to-do" className="space-y-4">
             <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-stone-900 border-b border-stone-200 pb-3">
-              4. Things to Do
+              4. What Are the Best Things to Do in {article.destination}?
             </h2>
+            {article.sections.thingsToDoSummary && (
+              <p className={`text-stone-700 leading-relaxed font-normal ${getProseFontSize()}`}>
+                {article.sections.thingsToDoSummary}
+              </p>
+            )}
             <div className="space-y-3">
               {article.sections.thingsToDo.map((activity, idx) => (
                 <div
@@ -476,12 +488,12 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
             )}
           </section>
 
-          {/* Section 6: Best time to visit */}
+          {/* Section 6: What is the best time to visit */}
           <section id="best-time-to-visit" className="space-y-4">
             <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-stone-900 border-b border-stone-200 pb-3">
-              6. Best Time to Visit
+              6. What Is the Best Time to Visit {article.destination}?
             </h2>
-            <p className={`text-stone-700 ${getProseFontSize()}`}>
+            <p className={`text-stone-700 leading-relaxed font-normal ${getProseFontSize()}`}>
               {article.sections.bestTimeToVisit.summary}
             </p>
 
@@ -553,11 +565,16 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
             </div>
           </section>
 
-          {/* Section 8: Where to stay */}
+          {/* Section 8: Where should you stay */}
           <section id="where-to-stay" className="space-y-5">
             <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-stone-900 border-b border-stone-200 pb-3">
-              8. Where to Stay
+              8. Where Should You Stay in {article.destination}?
             </h2>
+            {article.sections.whereToStaySummary && (
+              <p className={`text-stone-700 leading-relaxed font-normal ${getProseFontSize()}`}>
+                {article.sections.whereToStaySummary}
+              </p>
+            )}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {article.sections.whereToStay.map((stay, idx) => (
                 <div

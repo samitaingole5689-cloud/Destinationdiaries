@@ -17,17 +17,16 @@ export const amalfiArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/amalfi_positano_939794298494648.jpg',
     alt: 'Colorful pastel houses of Positano stacked on vertical cliffs tumbling into the turquoise Mediterranean sea in Italy',
     caption: 'The dramatic cliffside pyramid of Positano’s pastel villas descending into the cobalt waters of the Tyrrhenian Sea.',
     photographer: 'Matthew Waring',
   },
   secondaryImages: [
     {
-      url: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1000&q=80',
+      url: 'https://www.happybrides.net/wp-content/uploads/2024/12/terrace-of-infinity-Villa-Cimbrone-550x550.jpg',
       alt: 'Panoramic terrace view in Ravello looking down over the Amalfi coastline and azure sea',
       caption: 'The Infinity Terrace at Villa Cimbrone in Ravello, suspended 365 meters above the sparkling sea.',
-      photographer: 'Willian Justen de Vasconcellos',
     },
     {
       url: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=80',
@@ -96,6 +95,8 @@ Beyond its postcard visuals, the Coast offers world-class gastronomy rooted in h
       },
     ],
 
+    thingsToDoSummary: 'The best things to do on the Amalfi Coast include hiking the panoramic Path of the Gods trail, chartering a wooden gozzo boat to cruise around Capri and the sea caves, wandering the cliffside gardens of Villa Cimbrone in Ravello, swimming in the turquoise fjord of Furore, and enjoying fresh seafood and limoncello along the water in Positano.',
+
     thingsToDo: [
       'Charter a traditional wooden "gozzo" boat for a full day along the coast, swimming in hidden coves, exploring the Emerald Grotto, and passing beneath the Faraglioni rocks of Capri.',
       'Hike the majestic Path of the Gods in the cool morning, stopping for fresh mountain lemonade and sheep’s milk cheese from shepherds along the route.',
@@ -133,7 +134,7 @@ Beyond its postcard visuals, the Coast offers world-class gastronomy rooted in h
     ],
 
     bestTimeToVisit: {
-      summary: 'The Amalfi Coast experiences classic Mediterranean warmth; shoulder seasons offer the dream balance of warm swimming water and comfortable village strolling.',
+      summary: 'The best time to visit the Amalfi Coast is during the shoulder months of May to June and September to mid-October, when sparkling sunny days, pleasant 25°C weather, and warm waters let you swim and explore without intense summer crowds and road traffic.',
       peakSeason: 'July and August (Intense summer heat 32°C+, bustling beach clubs, yacht traffic, heavy vehicular congestion on the coastal road, and peak hotel pricing).',
       shoulderSeason: 'May to June and September to mid-October (The absolute ideal time: sparkling sunny days around 25°C, warm ocean temperatures, blooming bougainvillea, and calmer village stairs).',
       lowSeason: 'November to March (Winter quiet: ferries cease operations, many hotels and seaside restaurants close for renovation, cooler 12°C temperatures, though very peaceful for hiking).',
@@ -144,6 +145,8 @@ Beyond its postcard visuals, the Coast offers world-class gastronomy rooted in h
       localTransit: 'Ferry boats (Travelmar) are the absolute best way to travel between Positano, Amalfi, Minori, Maiori, and Salerno—skipping road traffic while offering breathtaking views from the water. Sita Sud buses link towns, but can be crowded in summer.',
       entryRequirements: 'Italy is a member of the Schengen Zone. Travelers from the US, UK, Canada, Australia, and EU do not require a visa for tourist stays up to 90 days within any 180-day window.',
     },
+
+    whereToStaySummary: 'The best towns to stay on the Amalfi Coast include Positano for iconic cliffside glamour, boutique shopping, and vibrant beach clubs, Ravello for quiet mountain tranquility and world-class clifftop gardens, or Praiano for authentic Italian village charm with sweeping sunset views toward Capri.',
 
     whereToStay: [
       {

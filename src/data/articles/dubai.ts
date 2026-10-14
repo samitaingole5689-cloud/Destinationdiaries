@@ -17,16 +17,16 @@ export const dubaiArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80',
+    url: '/src/assets/images/dubai_burj_khalifa_sunset_1791969848550.jpg',
     alt: 'Burj Khalifa soaring above the glittering skyline, highway lights, and fountains of Downtown Dubai at sunset',
     caption: 'The world’s tallest tower, the Burj Khalifa, rising 828 meters above Downtown Dubai and the Arabian desert.',
     photographer: 'Zheng Zhou',
   },
   secondaryImages: [
     {
-      url: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80',
+      url: '/src/assets/images/dubai_desert_dunes_1791969224233.jpg',
       alt: 'Rolling golden sand dunes of the Arabian desert during a sunset 4x4 safari expedition',
-      caption: 'The windswept crimson sand dunes of the Dubai Desert Conservation Reserve glowing at twilight.',
+      caption: 'Windswept crimson sand dunes of the Dubai Desert Conservation Reserve glowing at twilight.',
       photographer: 'NASA',
     },
     {
@@ -96,6 +96,8 @@ It offers supreme levels of safety, spotless cleanliness, and hospitality standa
       },
     ],
 
+    thingsToDoSummary: 'The best things to do in Dubai include ascending the observation decks of the Burj Khalifa, heading into the red dunes on an evening desert safari with Bedouin dining, exploring the futuristic Museum of the Future, browsing gold and spice souks in Old Dubai, and relaxing at beachfront cabanas on Palm Jumeirah.',
+
     thingsToDo: [
       'Embark on an evening Desert Safari in the rolling dunes of the Dubai Desert Conservation Reserve, followed by falconry displays and traditional barbecue under starlit Bedouin tents.',
       'Soar over the city on a scenic seaplane tour or thrill yourself on the XLine zip line across the skyscrapers of Dubai Marina at speeds up to 80 km/h.',
@@ -133,7 +135,7 @@ It offers supreme levels of safety, spotless cleanliness, and hospitality standa
     ],
 
     bestTimeToVisit: {
-      summary: 'Dubai has two primary seasons: a gorgeous, mild winter perfect for outdoor activities, and an intense summer best suited for air-conditioned indoor attractions.',
+      summary: 'The best time to visit Dubai is during the winter months from November to March, when warm sunshine, comfortable daytime highs around 25°C, and cool breezy evenings create ideal conditions for beaches, desert safaris, and rooftop dining.',
       peakSeason: 'November to March (Winter sunshine with daytime temperatures around 24°C - 28°C, pleasant evening breezes, rooftop events, and beach club season).',
       shoulderSeason: 'April and October (Warmer temperatures 32°C - 36°C, ocean water is bath-warm, excellent resort deals, and fewer crowds).',
       lowSeason: 'May to September (Blistering summer heat exceeding 42°C with high humidity; life moves indoors to mega-malls, aquariums, and indoor theme parks, with 5-star hotel rates discounted up to 60%).',
@@ -144,6 +146,8 @@ It offers supreme levels of safety, spotless cleanliness, and hospitality standa
       localTransit: 'The automated Dubai Metro runs driverless trains along Sheikh Zayed Road (Red Line) and through historic Deira/Bur Dubai (Green Line). Taxis (Dubai Taxi Corporation) are clean, metered, and widely available, as is Careem (the regional rideshare app).',
       entryRequirements: 'Citizens of over 70 nations (including US, UK, EU, Canada, Australia) receive a free 30-day or 90-day tourist visa stamp upon arrival at immigration.',
     },
+
+    whereToStaySummary: 'The best areas to stay in Dubai include Downtown Dubai for walking access to the Burj Khalifa and the Dubai Mall, Palm Jumeirah or JBR for private beachfront luxury and beach clubs, or Dubai Marina for lively skyscraper canal walks and diverse dining.',
 
     whereToStay: [
       {
