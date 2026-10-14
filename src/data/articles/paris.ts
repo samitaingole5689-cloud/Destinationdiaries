@@ -18,14 +18,14 @@ export const parisArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80',
-    alt: 'The Eiffel Tower framed by classic Parisian apartment balconies on a sunny afternoon in Paris',
+    alt: 'The Eiffel Tower rising gracefully against a soft evening sky alongside the banks of the Seine River in Paris.',
     caption: 'The iconic Eiffel Tower standing tall along the banks of the Seine River, Paris.',
     photographer: 'Anthony DELANOIX',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=80',
-      alt: 'The Louvre Museum glass pyramid illuminated at dusk reflecting on the courtyard pools',
+      alt: 'Ornate, glowing lamps and classical sculptures lining the historic Pont Alexandre III bridge crossing the Seine River at dusk.',
       caption: 'Evening light on Paris’s iconic Pont Alexandre III bridge across the Seine River.',
       photographer: 'Michael Fousert',
     },
