@@ -18,13 +18,13 @@ export const baliArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Pura Ulun Danu Bratan Temple in Bali',
+    alt: 'A multi-tiered thatched-roof Balinese temple, Pura Ulun Danu Bratan, standing on the edge of a calm lake with its dark silhouette reflecting clearly on the water\'s surface.',
     caption: 'Pura Ulun Danu Bratan Temple',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1000&q=80',
-      alt: 'Dramatic limestone sea cliffs and crashing azure waves in Uluwatu, southern Bali',
+      alt: 'An ancient Balinese sea temple, Pura Tanah Lot, perched on an offshore rock formation against a vibrant sunset sky over the ocean.',
       caption: 'Tanah Lot Temple',
       photographer: 'Alexander Popov',
     },
