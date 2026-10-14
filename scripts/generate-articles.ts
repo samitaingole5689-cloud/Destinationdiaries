@@ -27,12 +27,12 @@ function renderArticleHtml(article: Article): string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(article.seoTitle || `${article.title} | Destination Diaries`)}</title>
   <meta name="description" content="${escapeHtml(article.metaDescription || article.subtitle)}">
-  <link rel="canonical" href="https://destination-diaries.vercel.app${article.url}">
+  <link rel="canonical" href="https://destinationdiaries.vercel.app${article.url}">
   <meta property="og:type" content="article">
   <meta property="og:title" content="${escapeHtml(article.seoTitle || article.title)}">
   <meta property="og:description" content="${escapeHtml(article.metaDescription || article.subtitle)}">
   <meta property="og:image" content="${article.featuredImage.url}">
-  <meta property="og:url" content="https://destination-diaries.vercel.app${article.url}">
+  <meta property="og:url" content="https://destinationdiaries.vercel.app${article.url}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(article.seoTitle || article.title)}">
   <meta name="twitter:description" content="${escapeHtml(article.metaDescription || article.subtitle)}">

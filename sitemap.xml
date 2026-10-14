@@ -5,7 +5,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <!-- Homepage -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/</loc>
+    <loc>https://destinationdiaries.vercel.app/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +13,7 @@
 
   <!-- 1. Bali, Indonesia -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/bali-indonesia.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/bali-indonesia.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -25,7 +25,7 @@
 
   <!-- 2. Paris, France -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/paris-france.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/paris-france.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -37,7 +37,7 @@
 
   <!-- 3. Santorini, Greece -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/santorini-greece.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/santorini-greece.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -49,7 +49,7 @@
 
   <!-- 4. Switzerland -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/switzerland.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/switzerland.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -61,7 +61,7 @@
 
   <!-- 5. Maldives -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/maldives.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/maldives.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -73,7 +73,7 @@
 
   <!-- 6. Kyoto, Japan -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/kyoto-japan.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/kyoto-japan.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -85,7 +85,7 @@
 
   <!-- 7. New York City, USA -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/new-york-city.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/new-york-city.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -97,7 +97,7 @@
 
   <!-- 8. Dubai, UAE -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/dubai-uae.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/dubai-uae.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -109,7 +109,7 @@
 
   <!-- 9. Queenstown, New Zealand -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/queenstown-new-zealand.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/queenstown-new-zealand.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -121,7 +121,7 @@
 
   <!-- 10. Amalfi Coast, Italy -->
   <url>
-    <loc>https://wanderlust-chronicles.vercel.app/articles/amalfi-coast.html</loc>
+    <loc>https://destinationdiaries.vercel.app/articles/amalfi-coast.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
