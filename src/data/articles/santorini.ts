@@ -18,14 +18,14 @@ export const santoriniArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Iconic blue-domed churches and whitewashed cubist houses overlooking the azure Aegean caldera in Oia, Santorini',
+    alt: 'Traditional white and pastel cave houses sprawling along the dramatic volcanic cliffs of Oia in Santorini.',
     caption: 'Panoramas of traditional pastel and white cave houses sprawling along the cliffs of Oia.',
     photographer: 'Heidi KJewell',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=80',
-      alt: 'Panoramic view of cliffside hotels and infinity pools perched high above the Santorini volcanic caldera',
+      alt: 'framed view of bright pink bougainvillea flowers against whitewashed walls overlooking the deep blue waters of the Santorini caldera.',
       caption: 'Framed view of the deep blue Santorini caldera and vibrant pink bougainvillea.',
       photographer: 'Matthew Waring',
     },

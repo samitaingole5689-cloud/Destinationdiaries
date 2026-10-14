@@ -18,14 +18,14 @@ export const maldivesArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Luxury wooden overwater villas fanning out into an electric turquoise lagoon in the Maldives',
+    alt: 'An aerial view of winding wooden boardwalks connecting thatched-roof overwater bungalows across turquoise lagoon waters in the Maldives.',
     caption: 'Wooden boardwalks threading overwater bungalows across the tranquil, crystal-clear atolls of the Maldives.',
     photographer: 'Syd Sujuaan',
   },
   secondaryImages: [
     {
       url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80',
-      alt: 'Powder-white sand beach fringed by coconut palms and clear azure waters',
+      alt: 'Gentle turquoise ocean waves washing over a soft, white coral sand beach under a warm, glowing sky at sunrise or sunset.',
       caption: 'Flour-soft coral sand beaches lapped by 29°C warm Indian Ocean waves.',
       photographer: 'Sean Oulashin',
     },

@@ -18,16 +18,16 @@ export const switzerlandArticle: Article = {
   },
   featuredImage: {
     url: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1600&q=80',
-    alt: 'The majestic snow-covered Matterhorn peak reflecting in the still alpine waters of Riffelsee in Zermatt, Switzerland',
+    alt: 'Traditional wooden Swiss chalets beside a glacial river flowing through the lush green valley of Lauterbrunnen with dramatic cliff faces in the background.',
     caption: 'Traditional wooden chalets and a mountain river flowing through an alpine Swiss village.',
     photographer: 'Joshua Earle',
   },
   secondaryImages: [
     {
-      url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80',
-      alt: 'A red Swiss mountain train winding along high alpine viaducts surrounded by pine forests and snowy peaks',
-      caption: 'The iconic granite cliffs and pine tree lined river of Yosemite Valley at sunset.',
-      photographer: 'Bailey Zindel',
+      url: 'https://www.matterhornparadise.ch/ZBAG/10-region/zermatt/750/image-thumb__750__lightbox/cr_Pascal%20Gretchen.92d9ef45.jpg',
+      alt: 'The car-free Alpine village of Zermatt beneath the snow-dusted Matterhorn.',
+      caption: 'The car-free Alpine village of Zermatt nestled in the valley beneath the iconic, snow-dusted peak of the Matterhorn.',
+      photographer: 'Pascal Gretchen',
     },
     {
       url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80',
