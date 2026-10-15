@@ -25,7 +25,7 @@ export const maldivesArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/maldives-featured.webp',
     alt: 'An aerial view of winding wooden boardwalks connecting thatched-roof overwater bungalows across turquoise lagoon waters in the Maldives.',
     caption: 'Wooden boardwalks threading overwater bungalows across the tranquil, crystal-clear atolls of the Maldives.',
     photographer: 'Syd Sujuaan',

@@ -25,7 +25,7 @@ export const santoriniArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/santorini-featured.webp',
     alt: 'Traditional white and pastel cave houses sprawling along the dramatic volcanic cliffs of Oia in Santorini.',
     caption: 'Panoramas of traditional pastel and white cave houses sprawling along the cliffs of Oia.',
     photographer: 'Heidi KJewell',

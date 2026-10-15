@@ -25,7 +25,7 @@ export const parisArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/paris-featured.webp',
     alt: 'The Eiffel Tower rising gracefully against a soft evening sky alongside the banks of the Seine River in Paris.',
     caption: 'The iconic Eiffel Tower standing tall along the banks of the Seine River, Paris.',
     photographer: 'Anthony DELANOIX',

@@ -25,7 +25,7 @@ export const nycArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/nyc-featured.webp',
     alt: 'Yellow New York City taxi cabs speeding through the iconic skyscraper canyons of Manhattan at sunset',
     caption: "Sunlight streaming through the vibrant billboard-lined streets of Manhattan's Times Square.",
     photographer: 'Oliver Niblett',

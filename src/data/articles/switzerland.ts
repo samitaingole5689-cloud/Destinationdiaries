@@ -25,7 +25,7 @@ export const switzerlandArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/switzerland-featured.webp',
     alt: 'Traditional wooden Swiss chalets beside a glacial river flowing through the lush green valley of Lauterbrunnen with dramatic cliff faces in the background.',
     caption: 'Traditional wooden chalets and a mountain river flowing through an alpine Swiss village.',
     photographer: 'Joshua Earle',

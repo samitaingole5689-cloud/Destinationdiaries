@@ -25,7 +25,7 @@ export const baliArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/bali-featured.webp',
     alt: 'A multi-tiered thatched-roof Balinese temple, Pura Ulun Danu Bratan, standing on the edge of a calm lake with its dark silhouette reflecting clearly on the water\'s surface.',
     caption: 'Pura Ulun Danu Bratan Temple',
   },

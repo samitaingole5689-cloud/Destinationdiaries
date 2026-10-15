@@ -25,7 +25,7 @@ export const kyotoArticle: Article = {
     avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
   },
   featuredImage: {
-    url: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/kyoto-featured.webp',
     alt: 'Traditional wooden machiya houses and Yasaka Pagoda illuminated along the cobblestone alleys of Higashiyama, Kyoto',
     caption: 'The Yasaka Pagoda soaring above the lantern-lit wooden machiya merchant townhouses of historic Higashiyama.',
     photographer: 'Soragrit Wongsa',
