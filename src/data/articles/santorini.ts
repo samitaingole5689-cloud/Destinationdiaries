@@ -231,7 +231,7 @@ Furthermore, Santorini offers a romantic intimacy that feels nearly theatrical. 
       },
       {
         title: 'Protect Yourself from the Aegean Sun & Meltemi',
-        tip: 'White walls reflect intense UV rays like mirrors. Pack high-SPF mineral sunscreen, UV sunglasses, and a secure sunhat that won’t blow away in summer gusts.',
+        tip: 'White walls reflect intense UV rays like mirrors. Pack high-SPF mineral sunscreen, UV sunglasses, and a secure sunhat that won’t blow away in summer gusts. For more regional travel details and island overviews, reference the national <a href="https://www.visitgreece.gr/en/islands/Cyclades/santorini" target="_blank" rel="noopener noreferrer">Santorini travel guide</a>.',
         category: 'Safety',
       },
     ],

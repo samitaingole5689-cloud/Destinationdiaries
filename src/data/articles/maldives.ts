@@ -216,7 +216,7 @@ Beyond the resorts, the Maldives is home to some of the planet’s richest marin
     travelTips: [
       {
         title: 'Understand Local Island Laws vs. Resort Islands',
-        tip: 'The Maldives is an Islamic nation. On local inhabited islands (like Maafushi or Malé), alcohol is prohibited and modest dress is required, except on designated tourist "Bikini Beaches." Private resort islands have no such restrictions.',
+        tip: 'The Maldives is an Islamic nation. On local inhabited islands (like Maafushi or Malé), alcohol is prohibited and modest dress is required, except on designated tourist "Bikini Beaches." Private resort islands have no such restrictions. For additional visitor information and island travel planning, consult the official <a href="https://visitmaldives.com/" target="_blank" rel="noopener noreferrer">Maldives travel guide</a>.',
         category: 'Etiquette',
       },
       {

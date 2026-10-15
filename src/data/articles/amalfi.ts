@@ -215,7 +215,7 @@ Beyond its postcard visuals, the Coast offers world-class gastronomy rooted in h
     travelTips: [
       {
         title: 'Avoid Driving the Amalfi Drive in Peak Season',
-        tip: 'The narrow, two-lane SS163 cliff road features blind hairpin turns and heavy tour bus congestion. Unless you are an experienced mountain driver, use ferries and private boat transfers.',
+        tip: 'The narrow, two-lane SS163 cliff road features blind hairpin turns and heavy tour bus congestion. Unless you are an experienced mountain driver, use ferries and private boat transfers. For nationwide travel tips and regional transport advice, visit the official <a href="https://www.italia.it/en" target="_blank" rel="noopener noreferrer">Italy travel guide</a>.',
         category: 'Transit',
       },
       {

@@ -226,7 +226,7 @@ It offers supreme levels of safety, spotless cleanliness, and hospitality standa
       },
       {
         title: 'Book Burj Khalifa and Museum Tickets in Advance',
-        tip: 'Tickets for the Museum of the Future and Burj Khalifa sunset slots frequently sell out several weeks ahead during the winter tourist peak.',
+        tip: 'Tickets for the Museum of the Future and Burj Khalifa sunset slots frequently sell out several weeks ahead during the winter tourist peak. For citywide destination advice and visitor resources, refer to the official <a href="https://www.visitdubai.com/en/" target="_blank" rel="noopener noreferrer">Dubai travel guide</a>.',
         category: 'Transit',
       },
       {

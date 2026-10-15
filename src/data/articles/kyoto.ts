@@ -226,7 +226,7 @@ Furthermore, Kyoto is the birthplace of Japan’s most revered culinary and craf
       },
       {
         title: 'Start Sightseeing at 6:30 AM',
-        tip: 'Fushimi Inari and Arashiyama Bamboo Grove are open 24/7 with zero admission gates. Arriving at 6:30 or 7:00 AM allows you to experience these sacred sites in mystical silence before tour crowds appear.',
+        tip: 'Fushimi Inari and Arashiyama Bamboo Grove are open 24/7 with zero admission gates. Arriving at 6:30 or 7:00 AM allows you to experience these sacred sites in mystical silence before tour crowds appear. For sightseeing recommendations and cultural etiquette advice, check the official <a href="https://kyoto.travel/en/" target="_blank" rel="noopener noreferrer">Kyoto travel guide</a>.',
         category: 'Local Hack',
       },
       {

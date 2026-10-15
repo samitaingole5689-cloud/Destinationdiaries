@@ -701,20 +701,40 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
               10. Travel Tips
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {article.sections.travelTips.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="p-4 bg-white border border-stone-200 rounded-xl space-y-1.5"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-stone-900">{item.title}</span>
-                    <span className="text-[11px] font-semibold text-amber-800 uppercase tracking-wider">
-                      {item.category}
-                    </span>
+              {article.sections.travelTips.map((item, idx) => {
+                const match = item.tip.match(/<a\s+href="([^"]+)"(?:\s+target="([^"]+)")?(?:\s+rel="([^"]+)")?>([^<]+)<\/a>/);
+                return (
+                  <div
+                    key={idx}
+                    className="p-4 bg-white border border-stone-200 rounded-xl space-y-1.5"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold text-stone-900">{item.title}</span>
+                      <span className="text-[11px] font-semibold text-amber-800 uppercase tracking-wider">
+                        {item.category}
+                      </span>
+                    </div>
+                    <p className="text-xs text-stone-600 leading-relaxed">
+                      {match ? (
+                        <>
+                          {item.tip.slice(0, match.index)}
+                          <a
+                            href={match[1]}
+                            target={match[2] || '_blank'}
+                            rel={match[3] || 'noopener noreferrer'}
+                            className="text-amber-800 underline underline-offset-2 hover:text-amber-950 font-medium"
+                          >
+                            {match[4]}
+                          </a>
+                          {item.tip.slice((match.index || 0) + match[0].length)}
+                        </>
+                      ) : (
+                        item.tip
+                      )}
+                    </p>
                   </div>
-                  <p className="text-xs text-stone-600 leading-relaxed">{item.tip}</p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </section>
 

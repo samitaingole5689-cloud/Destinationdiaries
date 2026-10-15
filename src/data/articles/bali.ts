@@ -230,7 +230,7 @@ Beyond spirituality, Bali’s physical geography is shockingly diverse for an is
       },
       {
         title: 'Download Gojek and Grab Immediately',
-        tip: 'These super-apps handle rides, food deliveries, and even mobile data top-ups at strictly regulated transparent prices.',
+        tip: 'These super-apps handle rides, food deliveries, and even mobile data top-ups at strictly regulated transparent prices. Before travelling, consult the official <a href="https://www.indonesia.travel/id/en/destination/bali-nusa-tenggara/bali" target="_blank" rel="noopener noreferrer">Bali travel guide</a> for additional destination information.',
         category: 'Local Hack',
       },
     ],

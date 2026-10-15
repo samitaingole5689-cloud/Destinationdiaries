@@ -216,7 +216,7 @@ Moreover, the diversity of experiences within short distances is astounding. In 
     travelTips: [
       {
         title: 'Download the SBB Mobile App',
-        tip: 'The Swiss Federal Railways (SBB) app is arguably the world’s best transit tool: gives real-time train tracks, platform changes, occupancy rates, and ticket purchases in two clicks.',
+        tip: 'The Swiss Federal Railways (SBB) app is arguably the world’s best transit tool: gives real-time train tracks, platform changes, occupancy rates, and ticket purchases in two clicks. For comprehensive travel inspiration and destination guides across the country, refer to the official <a href="https://www.myswitzerland.com/en/" target="_blank" rel="noopener noreferrer">Switzerland tourism</a> portal.',
         category: 'Transit',
       },
       {

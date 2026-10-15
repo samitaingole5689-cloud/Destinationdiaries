@@ -216,7 +216,7 @@ Beyond iconic landmarks, New York’s true magic is its hyper-condensed diversit
     travelTips: [
       {
         title: 'Master the Manhattan Grid & Sidewalk Etiquette',
-        tip: 'Streets run east-west; Avenues run north-south. Never stop dead in the middle of a crowded sidewalk to look at your phone; step to the side near building walls to keep pedestrian traffic moving.',
+        tip: 'Streets run east-west; Avenues run north-south. Never stop dead in the middle of a crowded sidewalk to look at your phone; step to the side near building walls to keep pedestrian traffic moving. For neighborhood highlights and visitor resources, consult the official <a href="https://www.nyctourism.com/" target="_blank" rel="noopener noreferrer">NYC tourism</a> guide.',
         category: 'Local Hack',
       },
       {

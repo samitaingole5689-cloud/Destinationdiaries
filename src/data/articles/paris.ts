@@ -221,7 +221,7 @@ Add to this aesthetic marvel more than a thousand art galleries and 130 museums�
       },
       {
         title: 'Book Museum Slots Weeks in Advance',
-        tip: 'Both the Louvre and the Eiffel Tower summit require timed reservation slots that often sell out 3–4 weeks prior during peak months.',
+        tip: 'Both the Louvre and the Eiffel Tower summit require timed reservation slots that often sell out 3–4 weeks prior during peak months. For broader trip planning and city overviews, visit the official <a href="https://parisjetaime.com/web/?lang_from_url=eng" target="_blank" rel="noopener noreferrer">Paris tourism</a> website.',
         category: 'Transit',
       },
       {

@@ -13,6 +13,24 @@ function escapeHtml(str: string): string {
     .replace(/'/g, '&#039;');
 }
 
+function renderTipHtml(str: string): string {
+  if (!str) return '';
+  const anchorRegex = /<a\s+href="([^"]+)"(?:\s+target="([^"]+)")?(?:\s+rel="([^"]+)")?>([^<]+)<\/a>/g;
+  if (!anchorRegex.test(str)) {
+    return escapeHtml(str);
+  }
+  const anchors: string[] = [];
+  const placeholderText = str.replace(anchorRegex, (match) => {
+    anchors.push(match);
+    return `___ANCHOR_${anchors.length - 1}___`;
+  });
+  let escaped = escapeHtml(placeholderText);
+  anchors.forEach((anchor, i) => {
+    escaped = escaped.replace(`___ANCHOR_${i}___`, anchor);
+  });
+  return escaped;
+}
+
 function renderArticleHtml(article: Article): string {
   const { prev, next } = getAdjacentArticles(article.slug);
 
@@ -385,7 +403,7 @@ function renderArticleHtml(article: Article): string {
           <div class="tip-card">
             <div class="tip-top"><span class="tip-category">${escapeHtml(tip.category)}</span></div>
             <strong>${escapeHtml(tip.title)}</strong>
-            <p class="tip-body">${escapeHtml(tip.tip)}</p>
+            <p class="tip-body">${renderTipHtml(tip.tip)}</p>
           </div>
           `).join('')}
         </div>

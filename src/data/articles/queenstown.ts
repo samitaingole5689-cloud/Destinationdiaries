@@ -221,7 +221,7 @@ Moreover, Queenstown serves as the launchpad into Tolkien’s Middle-earth. Surr
       },
       {
         title: 'Pack Four Seasons of Clothing Every Day',
-        tip: 'Queenstown’s alpine weather is notoriously changeable. A sunny 22°C afternoon can shift into an 8°C mountain downpour with southerly winds in under twenty minutes.',
+        tip: 'Queenstown’s alpine weather is notoriously changeable. A sunny 22°C afternoon can shift into an 8°C mountain downpour with southerly winds in under twenty minutes. For general travel planning and regional destination advice, consult the official <a href="https://www.newzealand.com/int/" target="_blank" rel="noopener noreferrer">New Zealand tourism</a> website.',
         category: 'Pack',
       },
       {
